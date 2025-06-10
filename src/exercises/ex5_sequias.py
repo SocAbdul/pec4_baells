@@ -1,4 +1,5 @@
 def calcula_periodos(x, y_smooth, umbral=60):
+    
     """
     Calcula los periodos de sequía en una serie temporal suavizada según un umbral.
 
