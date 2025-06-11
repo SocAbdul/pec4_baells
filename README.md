@@ -1,36 +1,73 @@
-# Proyecto: Análisis histórico del embalse de La Baells
+# PEC4 - Programación para la Ciencia de Datos  
+**Abdullah Fasih – UOC 2025**
 
-Este proyecto consiste en la exploración, limpieza, análisis y visualización de datos del embalse de La Baells. Utiliza técnicas de procesamiento de series temporales y suavizado para detectar periodos de sequía a lo largo de más de 20 años.
+Este proyecto corresponde a la PEC4 de la asignatura *Programación para la Ciencia de Datos*, del Grado en Ciencia de Datos Aplicada en la UOC.  
+Consiste en el diseño modular, documentado y testeado de un flujo de trabajo para el análisis de datos relacionados con sequías.
+
+---
 
 ## 📁 Estructura del proyecto
 
-pec4_baells/
-│
-├── data/ # Contiene el archivo CSV original (baells.csv)
-├── eda/ # Funciones auxiliares para análisis de datos
+.
+├── data/ # Datos fuente (ej: baells.csv)
+├── doc/ # Documentación HTML generada con pdoc
+│ ├── index.html
+│ ├── exercises.html
+│ ├── src.html
+│ └── logo2.png
+├── eda/ # Funciones para análisis exploratorio
+│ ├── cleaning.py
+│ ├── loader.py
 │ └── utils.py
-├── visuals/ # Funciones de visualización
+├── img/ # Imágenes generadas (visualizaciones)
+│ ├── labaells_abdullah_fasih.png
+│ └── labaells_smoothed_abdullah_fasih.png
+├── screenshots/ # Evidencias de testing y cobertura
+│ ├── coverage_report.png
+│ └── test_ejecuccion.png
+├── src/ # Código principal
+│ └── exercises/ # Ejercicios por fases
+│ ├── ex1_exploracion.py
+│ ├── ex2_limpieza.py
+│ ├── ex3_procesamiento.py
+│ ├── ex4_suavizado.py
+│ ├── ex5_sequias.py
+│ └── init.py
+├── tests/ # Pruebas unitarias
+│ ├── test_loader.py
+│ └── init.py
+├── visuals/ # Visualizaciones (ej. plot.py)
 │ └── plot.py
-├── img/ # Carpeta donde se guardan las imágenes generadas
-├── main.py # Script principal de ejecución
+├── LICENSE
+├── main.py # Script principal ejecutable
 ├── README.md # Este archivo
-├── LICENSE # Licencia de uso
 └── requirements.txt # Dependencias del proyecto
 
 
-## ⚙️ Instalación y ejecución
 
-1. Clona el repositorio o descarga el código.
-2. Asegúrate de tener Python 3.10 o superior instalado.
-3. Instala las dependencias con:
+## ▶️ Ejecución
+
+Desde la raíz del proyecto:
 
 ```bash
-pip install -r requirements.txt
-Ejecuta el proyecto con:
-
 python main.py
-🧪 Cómo ejecutar los tests
-Este proyecto no incluye tests automatizados, pero puedes probar el correcto funcionamiento ejecutando el script principal (main.py). En caso de usar pytest, puedes organizar los tests en una carpeta tests/.
+Este script carga, limpia, suaviza y visualiza los datos del embalse de Baells.
 
-📚 Documentación
-Actualmente no se genera documentación automática, pero puedes comentarla o extenderla con herramientas como pdoc, Sphinx, etc.
+🧪 Tests
+Los tests están definidos en tests/test_loader.py y se ejecutan con:
+
+
+python -m unittest discover
+La cobertura de código se ha verificado con coverage y se encuentra en la carpeta screenshots/.
+
+🧾 Documentación
+La documentación se ha generado con pdoc a partir de los docstrings.
+Se encuentra en la carpeta doc/ y puede abrirse directamente en el navegador mediante doc/index.html.
+
+✅ Requisitos
+Instalar dependencias:
+
+pip install -r requirements.txt
+👨‍💻 Autor
+Abdullah Fasih
+Universitat Oberta de Catalunya (UOC) – 2025
