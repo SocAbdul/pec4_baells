@@ -6,11 +6,22 @@ Consiste en el diseño modular, documentado y testeado de un flujo de trabajo pa
 
 ---
 
+## 📥 Clonar el repositorio
+
+Puedes clonar o descargar el proyecto desde GitHub:
+
+🔗 [https://github.com/SocAbdul/pec4_baells](https://github.com/SocAbdul/pec4_baells)
+
+```bash
+git clone https://github.com/SocAbdul/pec4_baells.git
+cd pec4_baells
+
 ## 📁 Estructura del proyecto
 
 ```text
 .
-├── data/                     # Datos fuente (ej: baells.csv)
+├── data/                     # Datos fuente 
+│   ├── baells.csv
 ├── doc/                      # Documentación HTML generada con pdoc
 │   ├── index.html
 │   ├── exercises.html
@@ -37,7 +48,7 @@ Consiste en el diseño modular, documentado y testeado de un flujo de trabajo pa
 ├── tests/                    # Pruebas unitarias
 │   ├── test_loader.py
 │   └── __init__.py
-├── visuals/                  # Visualizaciones (ej. plot.py)
+├── visuals/                  # Visualizaciones (plot.py)
 │   └── plot.py
 ├── LICENSE
 ├── main.py                   # Script principal ejecutable
