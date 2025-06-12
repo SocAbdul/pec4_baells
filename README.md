@@ -12,8 +12,10 @@ Puedes clonar o descargar el proyecto desde GitHub:
 
 🔗 [https://github.com/SocAbdul/pec4_baells](https://github.com/SocAbdul/pec4_baells)
 
-```
+```bash
 git clone https://github.com/SocAbdul/pec4_baells.git
+```
+```bash
 cd pec4_baells
 ```
 
@@ -56,7 +58,7 @@ cd pec4_baells
 
 ▶️ Ejecución
 Desde la raíz del proyecto:
-```
+```bash
 python main.py
 ```
 Este script carga, limpia, suaviza y visualiza los datos del embalse de Baells.
@@ -64,7 +66,7 @@ Este script carga, limpia, suaviza y visualiza los datos del embalse de Baells.
 🧪 Tests
 Los tests están definidos en tests/test_loader.py y se ejecutan con:
 
-```
+```bash
 python -m unittest discover
 ```
 La cobertura de código se ha verificado con coverage y se encuentra en la carpeta screenshots/.
@@ -76,7 +78,7 @@ Se encuentra en la carpeta doc/ y puede abrirse directamente en el navegador med
 ✅ Requisitos
 Instalar dependencias:
 
-```
+```bash
 pip install -r requirements.txt
 ```
 👨‍💻 Autor
