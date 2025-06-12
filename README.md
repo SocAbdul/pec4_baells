@@ -6,8 +6,11 @@ Consiste en el diseño modular, documentado y testeado de un flujo de trabajo pa
 
 ---
 
+## 📁 Estructura del proyecto
+
+```text
 .
-├── data/                     # Datos fuente (baells.csv)
+├── data/                     # Datos fuente (ej: baells.csv)
 ├── doc/                      # Documentación HTML generada con pdoc
 │   ├── index.html
 │   ├── exercises.html
@@ -40,6 +43,7 @@ Consiste en el diseño modular, documentado y testeado de un flujo de trabajo pa
 ├── main.py                   # Script principal ejecutable
 ├── README.md                 # Este archivo
 └── requirements.txt          # Dependencias del proyecto
+
 
 
 
