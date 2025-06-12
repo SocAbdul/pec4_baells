@@ -52,7 +52,7 @@ cd pec4_baells
 ├── main.py                   # Script principal ejecutable
 ├── README.md                 # Este archivo
 └── requirements.txt          # Dependencias del proyecto
-
+```
 
 ▶️ Ejecución
 Desde la raíz del proyecto:
