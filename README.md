@@ -1,7 +1,5 @@
 📄 README.md
-markdown
-Copy
-Edit
+
 # PEC4 - Programación para la Ciencia de Datos  
 **Abdullah Fasih – UOC 2025**
 
@@ -20,9 +18,7 @@ Puedes clonar o descargar el proyecto desde GitHub:
 git clone https://github.com/SocAbdul/pec4_baells.git
 cd pec4_baells
 📁 Estructura del proyecto
-graphql
-Copy
-Edit
+
 .
 ├── data/                     # Datos fuente (ej: baells.csv)
 ├── doc/                      # Documentación HTML generada con pdoc
@@ -60,18 +56,14 @@ Edit
 ▶️ Ejecución
 Desde la raíz del proyecto:
 
-bash
-Copy
-Edit
+```bash
 python main.py
 Este script carga, limpia, suaviza y visualiza los datos del embalse de Baells.
 
 🧪 Tests
 Los tests están definidos en tests/test_loader.py y se ejecutan con:
 
-bash
-Copy
-Edit
+```bash
 python -m unittest discover
 La cobertura de código se ha verificado con coverage y se encuentra en la carpeta screenshots/.
 
@@ -82,9 +74,7 @@ Se encuentra en la carpeta doc/ y puede abrirse directamente en el navegador med
 ✅ Requisitos
 Instalar dependencias:
 
-bash
-Copy
-Edit
+```bash
 pip install -r requirements.txt
 👨‍💻 Autor
 Abdullah Fasih
