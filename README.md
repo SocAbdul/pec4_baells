@@ -6,42 +6,40 @@ Consiste en el diseño modular, documentado y testeado de un flujo de trabajo pa
 
 ---
 
-## 📁 Estructura del proyecto
-
 .
-├── data/ # Datos fuente (ej: baells.csv)
-├── doc/ # Documentación HTML generada con pdoc
-│ ├── index.html
-│ ├── exercises.html
-│ ├── src.html
-│ └── logo2.png
-├── eda/ # Funciones para análisis exploratorio
-│ ├── cleaning.py
-│ ├── loader.py
-│ └── utils.py
-├── img/ # Imágenes generadas (visualizaciones)
-│ ├── labaells_abdullah_fasih.png
-│ └── labaells_smoothed_abdullah_fasih.png
-├── screenshots/ # Evidencias de testing y cobertura
-│ ├── coverage_report.png
-│ └── test_ejecuccion.png
-├── src/ # Código principal
-│ └── exercises/ # Ejercicios por fases
-│ ├── ex1_exploracion.py
-│ ├── ex2_limpieza.py
-│ ├── ex3_procesamiento.py
-│ ├── ex4_suavizado.py
-│ ├── ex5_sequias.py
-│ └── init.py
-├── tests/ # Pruebas unitarias
-│ ├── test_loader.py
-│ └── init.py
-├── visuals/ # Visualizaciones (ej. plot.py)
-│ └── plot.py
+├── data/                     # Datos fuente (baells.csv)
+├── doc/                      # Documentación HTML generada con pdoc
+│   ├── index.html
+│   ├── exercises.html
+│   ├── src.html
+│   └── logo2.png
+├── eda/                      # Funciones para análisis exploratorio
+│   ├── cleaning.py
+│   ├── loader.py
+│   └── utils.py
+├── img/                      # Imágenes generadas (visualizaciones)
+│   ├── labaells_abdullah_fasih.png
+│   └── labaells_smoothed_abdullah_fasih.png
+├── screenshots/              # Evidencias de testing y cobertura
+│   ├── coverage_report.png
+│   └── test_ejecuccion.png
+├── src/                      # Código principal
+│   └── exercises/            # Ejercicios por fases
+│       ├── ex1_exploracion.py
+│       ├── ex2_limpieza.py
+│       ├── ex3_procesamiento.py
+│       ├── ex4_suavizado.py
+│       ├── ex5_sequias.py
+│       └── __init__.py
+├── tests/                    # Pruebas unitarias
+│   ├── test_loader.py
+│   └── __init__.py
+├── visuals/                  # Visualizaciones (ej. plot.py)
+│   └── plot.py
 ├── LICENSE
-├── main.py # Script principal ejecutable
-├── README.md # Este archivo
-└── requirements.txt # Dependencias del proyecto
+├── main.py                   # Script principal ejecutable
+├── README.md                 # Este archivo
+└── requirements.txt          # Dependencias del proyecto
 
 
 
